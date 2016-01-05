@@ -1,2 +1,2 @@
 # Study_Python
-�ոտ�ʼѧϰpython
+python练习 
