@@ -27,21 +27,17 @@ def log_complete(func):
 @log
 def now():
     print('2016-2-22')
-f = now()
-print(f)
-print(now.__name__)
+now()
 print('\n')
+
 
 @log_complete
 def now():
     print('2016-2-22')
-f = now()
-print(f)
-print(now.__name__)
+now()
 print('\n')
 
 @log_d('test1111')
 def now():
     print('2016-2-22')
-f = now()
-print(f)
+now()
